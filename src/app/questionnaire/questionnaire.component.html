@@ -1,0 +1,8 @@
+{{name}}
+<button type="menu" class="btn btn-primary" (click)="AddNewItem()">Add</button>
+<button type="menu" class="btn btn-primary" (click)="SaveList()">Save</button>
+<ul>
+  <li *ngFor="let item of list">
+    {{item.name}}/{{item.age}}
+  </li>
+</ul>
