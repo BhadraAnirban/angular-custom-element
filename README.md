@@ -18,6 +18,8 @@ Run `npm run build:elements` to build the project. The build artifacts will be s
 
 
 ##Use this angular element in any html page:
-
+```
 <app-questionnaire [name]="PMKJ"></app-questionnaire>
+
+```
 You need to add and reference of the bundled javascript file framework-poll.js
