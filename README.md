@@ -16,3 +16,8 @@ In the elements-build.js file we have written the bundling script.
 Run `npm run build:elements` to build the project. The build artifacts will be stored in the `element` folder.
 
 
+
+##Use this angular element in any html page:
+
+<app-questionnaire [name]="PMKJ"></app-questionnaire>
+You need to add and reference of the bundled javascript file framework-poll.js
