@@ -2,10 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
-## INstall Modules
+## Install Modules
+### ng add @angular/elements
+By using this elements package, cangular can turn component into custom omponent.
 
-$ npm install fs-extra concat
-
+### $ npm install fs-extra concat
+fs-extra is used to bundle all the js files after build into a single javascript (framework-poll.js) file and
+this file will be a reference file in the application where we afre going to use this custom element.
 
 
 ## Build
